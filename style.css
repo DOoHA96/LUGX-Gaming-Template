@@ -1,0 +1,329 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headerContainer{
+    background-color:#0171F9 ;
+    
+}
+
+.HeaderNav{
+    background-color: #0171F9;
+    padding: 30px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;    
+    height: 80px;
+
+}
+
+.logo img {
+    width: 150px;
+}
+
+.headerLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.headerLinks a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+
+
+
+.headerLinks {
+    width: 50%;
+}
+
+.headerLinks a:hover{
+    background-color: #1A7FF9;
+}
+
+.btn{
+    background-color: #EE626B;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    height: 52px;
+    font-weight: 600;
+    font-size: medium;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: #9E4147;
+    cursor: pointer;
+}
+
+.Welcome{
+    margin: 0px;
+}
+
+.landingPageContainer{
+    background-color: #0171F9;
+    border-radius: 0 0 100px 100px;
+}
+
+.landingPage{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 100px 0;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.landingPage .slogan{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.landingPage .Welcome{
+    font-size: x-large;
+    height: 10px;
+}
+
+.landingPage .description{
+    color: black;
+    width: 80%;
+    font-weight: 500;
+}
+
+.SearchBar{
+    margin-top: 100px;
+    position: relative;
+}
+
+.SearchBar input{
+    border-radius: 50px;
+    border: none;
+    width: 40%;
+    height: 50px;
+    font-size: large;
+    padding-left: 20px;
+}
+
+.SearchBar input::placeholder{
+    font-size: medium;
+}
+
+.SearchBar .searchBth{
+    position: absolute;
+    left: 300px;
+}
+
+.imageContainer{
+    flex: 4;
+}
+
+.imageContainer img {
+    border-radius: 20px;
+}
+
+.trendingContainer{
+    margin: auto;
+    max-width: 1300px;
+    margin-top: 100px;
+}
+
+
+
+.trendingHeader ,.mostHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.trendingHeader h1 , .mostHeader h1,.categoryHeader h1{
+    margin-top: 0;
+}
+
+.trendingContainer span ,.mostContainer span,.categoryHeader span{
+    color: red;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.trendingCard , .mostCards,.categoryCards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trendingCard .card{
+    position: relative;
+}
+
+.trendingCard .card img{
+    border-radius: 20px 20px 0 0 ;
+}
+
+.trendingCard .card .cardInfo{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    background-color: #EEEEEE;
+    border-radius: 0 0 20px 20px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trendingCard .cardInfo .icon img{
+    width: 50px;
+}
+
+.trendingCard .cardName h3{
+    margin-top: 0;
+}
+
+.trendingCard .card .cardName {
+    padding: 0 20px;
+}
+
+.trendingCard .cardName p {
+    color: gray;
+    margin-bottom: 0;
+}
+
+.trendingCard .cardInfo .icon img {
+    width: 50px;
+}
+
+.trendingCard .cardInfo .icon {
+    margin-right: 20px;
+}
+
+
+
+.mostContainer{
+    background-color: #EEEEEE;
+    margin-top: 200px;
+    border-radius: 100px;
+    padding: 50px;
+}
+
+.card .cardImg img{
+    border-radius: 20px;
+}
+
+.mostContainer .mostPlayed,.category{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.mostCards .cardInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mostCards .cardInfo .genre{
+    margin-bottom: 0;
+    color: gray;
+}
+
+
+
+.categoryContainer{
+    margin-top: 150px;
+}
+
+.category .categoryHeader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.category .card .genre{
+    background-color: #0171F9;
+    text-align: center;
+    color: #fff;
+    font-size: large;
+    padding: 15px 0 30px 0;
+    font-weight: 500;
+    border-radius: 20px 20px 0 0;
+}
+
+.category .categoryCards{
+    margin-top: 30px;
+}
+
+.category .card .cardImg{
+    top: -20px;
+    position: relative;
+}
+
+
+
+
+.footerContainer{
+    background-color: #0171F9;;
+    height: 150px;
+    border-radius: 100px 100px 0 0;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: large;
+}
+
+
+
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.formContainer form{
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    max-width: 400px;
+    height: 450px;
+
+}
+
+.formContainer form input, textarea{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.formContainer input {
+    height: 50px;
+    border-radius: 50px;
+}
+
+.formContainer textarea {
+    resize: none;
+    padding-top: 10px;
+    border-radius: 20px;
+}
